@@ -1,0 +1,496 @@
+export const moviesArray = 
+[
+  {
+    movieName: "The Shawshank Redemption",
+    description:
+      "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+    image:
+      "https://upload.wikimedia.org/wikipedia/en/8/81/ShawshankRedemptionMoviePoster.jpg",
+    year: 1994,
+    rating: 9.3,
+    genre: ["Drama"],
+  },
+  {
+    movieName: "The Godfather",
+    description:
+      "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.",
+    image: "https://upload.wikimedia.org/wikipedia/en/1/1c/Godfather_ver1.jpg",
+    year: 1972,
+    rating: 9.2,
+    genre: ["Crime", "Drama"],
+  },
+  {
+    movieName: "The Dark Knight",
+    description:
+      "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice.",
+    image:
+      "https://upload.wikimedia.org/wikipedia/en/1/1c/The_Dark_Knight_%282008_film%29.jpg",
+    year: 2008,
+    rating: 9.0,
+    genre: ["Action", "Crime", "Drama"],
+  },
+  {
+    movieName: "Pulp Fiction",
+    description:
+      "The lives of two mob hitmen, a boxer, a gangster and his wife, and a pair of diner bandits intertwine in four tales of violence and redemption.",
+    image:
+      "https://upload.wikimedia.org/wikipedia/en/3/3b/Pulp_Fiction_%281994%29_poster.jpg",
+    year: 1994,
+    rating: 8.9,
+    genre: ["Crime", "Drama"],
+  },
+  {
+    movieName: "Fight Club",
+    description:
+      "An insomniac office worker and a devil-may-care soap maker form an underground fight club that evolves into much more.",
+    image:
+      "https://upload.wikimedia.org/wikipedia/en/f/fc/Fight_Club_poster.jpg",
+    year: 1999,
+    rating: 8.8,
+    genre: ["Drama"],
+  },
+  {
+    movieName: "Inception",
+    description:
+      "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O.",
+    image:
+      "https://upload.wikimedia.org/wikipedia/en/2/2e/Inception_%282010%29_theatrical_poster.jpg",
+    year: 2010,
+    rating: 8.8,
+    genre: ["Action", "Adventure", "Sci-Fi"],
+  },
+  {
+    movieName: "The Matrix",
+    description:
+      "A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.",
+    image:
+      "https://m.media-amazon.com/images/I/613ypTLZHsL._AC_UF894,1000_QL80_.jpg",
+    year: 1999,
+    rating: 8.7,
+    genre: ["Action", "Sci-Fi"],
+  },
+  {
+    movieName: "Goodfellas",
+    description:
+      "The story of Henry Hill and his life in the mob, covering his relationship with his wife Karen Hill and his mob partners Jimmy Conway and Tommy DeVito in the Italian-American crime syndicate.",
+    image: "https://upload.wikimedia.org/wikipedia/en/7/7b/Goodfellas.jpg",
+    year: 1990,
+    rating: 8.7,
+    genre: ["Biography", "Crime", "Drama"],
+  },
+  {
+    movieName: "The Silence of the Lambs",
+    description:
+      "A young F.B.I. cadet must receive the help of an incarcerated and manipulative cannibal killer to help catch another serial killer.",
+    image:
+      "https://upload.wikimedia.org/wikipedia/en/8/86/The_Silence_of_the_Lambs_poster.jpg",
+    year: 1991,
+    rating: 8.6,
+    genre: ["Crime", "Drama", "Thriller"],
+  },
+  {
+    movieName: "Interstellar",
+    description:
+      "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
+    image:
+      "https://upload.wikimedia.org/wikipedia/en/b/bc/Interstellar_film_poster.jpg",
+    year: 2014,
+    rating: 8.6,
+    genre: ["Adventure", "Drama", "Sci-Fi"],
+  },
+  {
+    movieName: "The Green Mile",
+    description:
+      "The lives of guards on Death Row are affected by one of their charges: a black man accused of child murder and rape, yet who has a mysterious gift.",
+    image:
+      "https://upload.wikimedia.org/wikipedia/en/e/e2/The_Green_Mile_%28movie_poster%29.jpg",
+    year: 1999,
+    rating: 8.6,
+    genre: ["Crime", "Drama", "Fantasy"],
+  },
+  {
+    movieName: "Gladiator",
+    description:
+      "A former Roman General sets out to exact vengeance against the corrupt emperor who murdered his family and sent him into slavery.",
+    image:
+      "https://upload.wikimedia.org/wikipedia/en/f/fb/Gladiator_%282000_film_poster%29.png",
+    year: 2000,
+    rating: 8.5,
+    genre: ["Action", "Adventure", "Drama"],
+  },
+  {
+    movieName: "The Departed",
+    description:
+      "An undercover cop and a mole in the police attempt to identify each other while infiltrating an Irish gang in South Boston.",
+    image: "https://upload.wikimedia.org/wikipedia/en/5/50/Departed234.jpg",
+    year: 2006,
+    rating: 8.5,
+    genre: ["Crime", "Drama", "Thriller"],
+  },
+  {
+    movieName: "The Prestige",
+    description:
+      "After a tragic accident, two stage magicians engage in a battle to create the ultimate illusion while sacrificing everything they have to outwit each other.",
+    image: "https://upload.wikimedia.org/wikipedia/en/d/d2/Prestige_poster.jpg",
+    year: 2006,
+    rating: 8.5,
+    genre: ["Drama", "Mystery", "Sci-Fi"],
+  },
+  {
+    movieName: "Django Unchained",
+    description:
+      "With the help of a German bounty hunter, a freed slave sets out to rescue his wife from a brutal Mississippi plantation owner.",
+    image:
+      "https://upload.wikimedia.org/wikipedia/en/8/8b/Django_Unchained_Poster.jpg",
+    year: 2012,
+    rating: 8.4,
+    genre: ["Drama", "Western"],
+  },
+  {
+    movieName: "The Lion King",
+    description:
+      "Lion prince Simba and his father are targeted by his bitter uncle, who wants to ascend the throne himself.",
+    image:
+      "https://upload.wikimedia.org/wikipedia/en/3/3d/The_Lion_King_poster.jpg",
+    year: 1994,
+    rating: 8.5,
+    genre: ["Animation", "Adventure", "Drama"],
+  },
+  {
+    movieName: "Whiplash",
+    description:
+      "A promising young drummer enrolls at a cut-throat music conservatory where his dreams of greatness are mentored by an instructor who will stop at nothing to realize a student's potential.",
+    image: "https://upload.wikimedia.org/wikipedia/en/0/01/Whiplash_poster.jpg",
+    year: 2014,
+    rating: 8.5,
+    genre: ["Drama", "Music"],
+  },
+  {
+    movieName: "Joker",
+    description:
+      "In Gotham City, mentally troubled comedian Arthur Fleck is disregarded and mistreated by society. He then embarks on a downward spiral of revolution and bloody crime.",
+    image:
+      "https://upload.wikimedia.org/wikipedia/en/e/e1/Joker_%282019_film%29_poster.jpg",
+    year: 2019,
+    rating: 8.4,
+    genre: ["Crime", "Drama", "Thriller"],
+  },
+  {
+    movieName: "Parasite",
+    description:
+      "Greed and class discrimination threaten the newly formed symbiotic relationship between the wealthy Park family and the destitute Kim clan.",
+    image:
+      "https://upload.wikimedia.org/wikipedia/en/5/53/Parasite_%282019_film%29.png",
+    year: 2019,
+    rating: 8.5,
+    genre: ["Comedy", "Drama", "Thriller"],
+  },
+  {
+    movieName: "The Social Network",
+    description:
+      "As Harvard student Mark Zuckerberg creates the social networking site that would become known as Facebook, he is sued by the twins who claimed he stole their idea.",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRStygZ8XFCUEhXmS1MmfMKkxKHbkLC4WsRUGENF57C43h-dIUl4_IUze3ueClifOW_F9Te",
+    year: 2010,
+    rating: 7.7,
+    genre: ["Biography", "Drama"],
+  },
+  {
+    movieName: "Inglourious Basterds",
+    description:
+      "In Nazi-occupied France during World War II, a plan to assassinate Nazi leaders by a group of Jewish U.S. soldiers coincides with a theatre owner's vengeful plans for the same.",
+    image:
+      "https://upload.wikimedia.org/wikipedia/en/c/c3/Inglourious_Basterds_poster.jpg",
+    year: 2009,
+    rating: 8.3,
+    genre: ["Adventure", "Drama", "War"],
+  },
+  {
+    movieName: "The Grand Budapest Hotel",
+    description:
+      "The adventures of Gustave H, a legendary concierge at a famous hotel from the fictional Republic of Zubrowka between the first and second World Wars.",
+    image:
+      "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTuDcS2U5dj_fXMGq6Z9vcuSyqrIDz6IrWCr0xx1tQ6Wxq5eYFaC8d39bQzG7K7rHbtL5zM",
+    year: 2014,
+    rating: 8.1,
+    genre: ["Adventure", "Comedy", "Drama"],
+  },
+  {
+    movieName: "Blade Runner 2049",
+    description:
+      "A young blade runner's discovery of a long-buried secret leads him to track down former blade runner Rick Deckard, who's been missing for thirty years.",
+    image:
+      "https://upload.wikimedia.org/wikipedia/en/9/9b/Blade_Runner_2049_poster.png",
+    year: 2017,
+    rating: 8.0,
+    genre: ["Action", "Drama", "Mystery"],
+  },
+  {
+    movieName: "Mad Max: Fury Road",
+    description:
+      "In a post-apocalyptic wasteland, a woman rebels against a tyrannical ruler in search for her homeland with the aid of a group of female prisoners, a psychotic worshiper, and a drifter named Max.",
+    image:
+      "https://upload.wikimedia.org/wikipedia/en/6/6e/Mad_Max_Fury_Road.jpg",
+    year: 2015,
+    rating: 8.1,
+    genre: ["Action", "Adventure", "Sci-Fi"],
+  },
+  {
+    movieName: "The Revenant",
+    description:
+      "A frontiersman on a fur trading expedition in the 1820s fights for survival after being mauled by a bear and left for dead by members of his own hunting team.",
+    image:
+      "https://upload.wikimedia.org/wikipedia/en/b/b6/The_Revenant_2015_film_poster.jpg",
+    year: 2015,
+    rating: 8.0,
+    genre: ["Action", "Adventure", "Drama"],
+  },
+  {
+    movieName: "La La Land",
+    description:
+      "While navigating their careers in Los Angeles, a pianist and an actress fall in love while attempting to reconcile their aspirations for the future.",
+    image:
+      "https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/la-la-land-et00044042-17-04-2017-17-58-49.jpg",
+    year: 2016,
+    rating: 8.0,
+    genre: ["Comedy", "Drama", "Music"],
+  },
+  {
+    movieName: "The Wolf of Wall Street",
+    description:
+      "Based on the true story of Jordan Belfort, from his rise to a wealthy stock-broker living the high life to his fall involving crime, corruption and the federal government.",
+    image:
+      "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQJLETXaR_Fe5gBrk2Q5YhohJ9uAiFpS5RyS5QoMv8xHEGweQUPWbHkTzwAK_y297vLGPVylA",
+    year: 2013,
+    rating: 8.2,
+    genre: ["Biography", "Comedy", "Crime"],
+  },
+  {
+    movieName: "Gone Girl",
+    description:
+      "With his wife's disappearance having become the focus of an intense media circus, a man sees the spotlight turned on him when it's suspected that he may not be innocent.",
+    image:
+      "https://upload.wikimedia.org/wikipedia/en/0/05/Gone_Girl_Poster.jpg",
+    year: 2014,
+    rating: 8.1,
+    genre: ["Drama", "Mystery", "Thriller"],
+  },
+  {
+    movieName: "Arrival",
+    description:
+      "A linguist is recruited by the military to communicate with alien lifeforms after twelve mysterious spacecraft appear around the world.",
+    image:
+      "https://upload.wikimedia.org/wikipedia/en/d/df/Arrival%2C_Movie_Poster.jpg",
+    year: 2016,
+    rating: 7.9,
+    genre: ["Drama", "Mystery", "Sci-Fi"],
+  },
+  {
+    movieName: "Birdman",
+    description:
+      "A washed-up actor who once played an iconic superhero must overcome his ego and family trouble as he mounts a Broadway play in a bid to reclaim his past glory.",
+    image:
+      "https://m.media-amazon.com/images/S/pv-target-images/4246dc6a7c19e368781535257efb1411373427a1b755c6554a8435d347ceb221.jpg",
+    year: 2014,
+    rating: 7.7,
+    genre: ["Comedy", "Drama"],
+  },
+  {
+    movieName: "The Big Short",
+    description:
+      "In 2006-7 a group of investors bet against the US mortgage market. In their research, they discover how flawed and corrupt the market is.",
+    image:
+      "https://upload.wikimedia.org/wikipedia/en/1/16/The_Big_Short_%282015_film_poster%29.png",
+    year: 2015,
+    rating: 7.8,
+    genre: ["Biography", "Comedy", "Drama"],
+  },
+  {
+    movieName: "Spotlight",
+    description:
+      "The true story of how the Boston Globe uncovered the massive scandal of child molestation and cover-up within the local Catholic Archdiocese.",
+    image:
+      "https://upload.wikimedia.org/wikipedia/en/f/f3/Spotlight_%28film%29_poster.jpg",
+    year: 2015,
+    rating: 8.1,
+    genre: ["Biography", "Crime", "Drama"],
+  },
+  {
+    movieName: "The Martian",
+    description:
+      "An astronaut becomes stranded on Mars after his team assume him dead, and must rely on his ingenuity to find a way to signal to Earth that he is alive.",
+    image:
+      "https://upload.wikimedia.org/wikipedia/en/c/cd/The_Martian_film_poster.jpg",
+    year: 2015,
+    rating: 8.0,
+    genre: ["Adventure", "Drama", "Sci-Fi"],
+  },
+  {
+    movieName: "Ex Machina",
+    description:
+      "A young programmer is selected to participate in a ground-breaking experiment in synthetic intelligence by evaluating the human qualities of a highly advanced humanoid A.I.",
+    image:
+      "https://cameronmoviesandtv.wordpress.com/wp-content/uploads/2015/07/ex-machina-french-movie-poster-15x21-2015-alex-garland-alicia-vikander.jpg",
+    year: 2014,
+    rating: 7.7,
+    genre: ["Drama", "Sci-Fi", "Thriller"],
+  },
+  {
+    movieName: "Nightcrawler",
+    description:
+      "When Louis Bloom, a con man desperate for work, muscles into the world of L.A. crime journalism, he blurs the line between observer and participant to become the star of his own story.",
+    image:
+      "https://upload.wikimedia.org/wikipedia/en/d/d4/Nightcrawlerfilm.jpg",
+    year: 2014,
+    rating: 7.9,
+    genre: ["Crime", "Drama", "Thriller"],
+  },
+  {
+    movieName: "Her",
+    description:
+      "In a near future, a lonely writer develops an unlikely relationship with an operating system designed to meet his every need.",
+    image: "https://upload.wikimedia.org/wikipedia/en/4/44/Her2013Poster.jpg",
+    year: 2013,
+    rating: 8.0,
+    genre: ["Drama", "Romance", "Sci-Fi"],
+  },
+  {
+    movieName: "Dunkirk",
+    description:
+      "Allied soldiers from Belgium, the British Empire and France are surrounded by the German army and evacuated during a fierce battle in World War II.",
+    image:
+      "https://upload.wikimedia.org/wikipedia/en/1/15/Dunkirk_Film_poster.jpg",
+    year: 2017,
+    rating: 7.8,
+    genre: ["Action", "Drama", "History"],
+  },
+  {
+    movieName: "Three Billboards Outside Ebbing, Missouri",
+    description:
+      "A mother personally challenges the local authorities to solve her daughter's murder when they fail to catch the culprit.",
+    image:
+      "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQhwAYZ4mSo2ewJ4h1DU5pr7P7xL77XWr6kht7j-g22xhj68dPg6tanSQF2KofLOWESBpjauQ",
+    year: 2017,
+    rating: 8.1,
+    genre: ["Comedy", "Crime", "Drama"],
+  },
+  {
+    movieName: "Get Out",
+    description:
+      "A young African-American visits his white girlfriend's parents for the weekend, where his simmering uneasiness about their reception of him eventually reaches a boiling point.",
+    image:
+      "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT6Hr-ZNlOyGfWOED_cHogpEHYv7-H4OZSy3nWlA2MvwbXivNdhkGWgWhScOenoRkknOMhm",
+    year: 2017,
+    rating: 7.7,
+    genre: ["Horror", "Mystery", "Thriller"],
+  },
+  {
+    movieName: "Baby Driver",
+    description:
+      "After being coerced into working for a crime boss, a young getaway driver finds himself taking part in a heist doomed to fail.",
+    image:
+      "https://upload.wikimedia.org/wikipedia/en/8/8e/Baby_Driver_poster.jpg",
+    year: 2017,
+    rating: 7.6,
+    genre: ["Action", "Crime", "Music"],
+  },
+  {
+    movieName: "BlacKkKlansman",
+    description:
+      "Ron Stallworth, an African American police officer from Colorado Springs, CO, successfully manages to infiltrate the local Ku Klux Klan branch with the help of a Jewish surrogate.",
+    image:
+      "https://upload.wikimedia.org/wikipedia/en/thumb/d/d5/BlacKkKlansman.png/250px-BlacKkKlansman.png",
+    year: 2018,
+    rating: 7.5,
+    genre: ["Biography", "Comedy", "Crime"],
+  },
+  {
+    movieName: "A Star Is Born",
+    description:
+      "A musician helps a young singer find fame as age and alcoholism send his own career into a downward spiral.",
+    image: "https://upload.wikimedia.org/wikipedia/en/3/39/A_Star_is_Born.png",
+    year: 2018,
+    rating: 7.6,
+    genre: ["Drama", "Music", "Romance"],
+  },
+  {
+    movieName: "Bohemian Rhapsody",
+    description:
+      "The story of the legendary British rock band Queen and lead singer Freddie Mercury, leading up to their famous performance at Live Aid (1985).",
+    image:
+      "https://upload.wikimedia.org/wikipedia/en/2/2e/Bohemian_Rhapsody_poster.png",
+    year: 2018,
+    rating: 7.9,
+    genre: ["Biography", "Drama", "Music"],
+  },
+  {
+    movieName: "Once Upon a Time in Hollywood",
+    description:
+      "A faded television actor and his stunt double strive to achieve fame and success in the final years of Hollywood's Golden Age in 1969 Los Angeles.",
+    image:
+      "https://upload.wikimedia.org/wikipedia/en/a/a6/Once_Upon_a_Time_in_Hollywood_poster.png",
+    year: 2019,
+    rating: 7.6,
+    genre: ["Comedy", "Drama"],
+  },
+  {
+    movieName: "1917",
+    description:
+      "April 6th, 1917. As a regiment assembles to wage war deep in enemy territory, two soldiers are assigned to race against time and deliver a message that will stop 1,600 men from walking straight into a deadly trap.",
+    image:
+      "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcStLVXEGRgSilajmqZ79UfkTy_hkDnKeod4k4u_7U-_-8wUlNBfjSVNx6cSH17gnQuDmYzqDQ",
+    year: 2019,
+    rating: 8.3,
+    genre: ["Drama", "War"],
+  },
+  {
+    movieName: "Knives Out",
+    description:
+      "A detective investigates the death of a patriarch of an eccentric, combative family.",
+    image:
+      "https://upload.wikimedia.org/wikipedia/en/1/1f/Knives_Out_poster.jpeg",
+    year: 2019,
+    rating: 7.9,
+    genre: ["Comedy", "Crime", "Drama"],
+  },
+  {
+    movieName: "The Irishman",
+    description:
+      "Hitman Frank Sheeran looks back at the secrets he kept as a loyal member of the Bufalino crime family in this acclaimed film from Martin Scorsese.",
+    image:
+      "https://upload.wikimedia.org/wikipedia/en/8/80/The_Irishman_poster.jpg",
+    year: 2019,
+    rating: 7.8,
+    genre: ["Biography", "Crime", "Drama"],
+  },
+  {
+    movieName: "Ford v Ferrari",
+    description:
+      "American car designer Carroll Shelby and driver Ken Miles battle corporate interference and the laws of physics to build a revolutionary race car for Ford in order to defeat Ferrari at the 24 Hours of Le Mans in 1966.",
+    image:
+      "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQgEOmv3LFX6oviPRrBpNkfbkF3hgMSF2rZwNUzYSRBAEQxGprXeMGgkEm9eBRDOl9iXP2Q",
+    year: 2019,
+    rating: 8.1,
+    genre: ["Action", "Biography", "Drama"],
+  },
+  {
+    movieName: "Little Women",
+    description:
+      "Jo March reflects back and forth on her life, telling the beloved story of the March sisters - four young women each determined to live life on her own terms.",
+    image:
+      "https://resizing.flixster.com/rYcj2hcdp1ffcGQQKtdmKhF82IE=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzdmMTk0MmQ2LTQzMmEtNGFmOC1hODEzLTRjNGRmOTFjYTQxNi53ZWJw",
+    year: 2019,
+    rating: 7.8,
+    genre: ["Drama", "Romance"],
+  },
+  {
+    movieName: "Marriage Story",
+    description:
+      "Noah Baumbach's incisive and compassionate look at a marriage breaking up and a family staying together.",
+    image:
+      "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcS0RFyexrxd9M5SR_BmOCYxyfeB-zArmyqTytDpdmfxRyaeIstlPUuAgdWnRhhPQ6De9Td6xg",
+    year: 2019,
+    rating: 7.9,
+    genre: ["Comedy", "Drama", "Romance"],
+  },
+];
